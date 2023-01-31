@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Clases</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .hover {
+            width: 300px;
+            height: 100px;
+            background-color: burlywood;
+        }
+
+        .hover:hover {
+            /* Se activa en cuanto el raton (mouse) pasa por encima*/
+            background-color: bisque;
+        }
+
+        .listado {
+            padding: 15px;
+            background-color: aquamarine;
+        }
+
+        .listado p:first-child {
+            /* Hace referencia al primer hijo , independientemente del estilo que sea*/
+            color: white;
+        }
+
+        a:link { /*Link no visitado*/
+            color: deeppink;
+        }
+
+        a:visited { /*Link que ya fue visitado*/
+            color: crimson;
+        }
+
+        a:hover {
+            color: pink;
+        }
+
+        a:active {
+            color: greenyellow;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="hover">
+        <p>Aute sint exercitation pariatur in esse incididunt ullamco labore occaecat. Exercitation sunt irure mollit ut ut aliquip ullamco nulla sunt amet. Sunt velit esse irure aliqua. Voluptate sit velit ex ut.</p>
+    </div>
+
+    <div class="listado">
+        <p>Párrafo 1</p>
+        <p>Párrafo 2</p>
+        <p>Párrafo 3</p>
+    </div>
+
+    <div class="enlaces">
+        <a href="https://google.com" target="_blank">Enlace a Google</a>
+        <a href="https://youtube.com" target="_blank">Enlace a Youtube</a>
+
+    </div>
+</body>
+</html>
