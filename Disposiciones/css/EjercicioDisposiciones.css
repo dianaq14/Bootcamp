@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(210, 228, 245);
+}
+
+.img-ejercicio {
+    width: 100vw;
+    opacity: 0.9;
+}
+
+.razas {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.imagen-galeria {
+    width: 300px;
+    height: 200px;
+    border: 1px solid goldenrod;
+
+}
+
+.imagen-galeria:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
+
+.titulo {
+    background-color: rgb(208, 216, 213);
+    text-align: center;
+    font-size: 65px;
+    font-family: monospace;
+}
