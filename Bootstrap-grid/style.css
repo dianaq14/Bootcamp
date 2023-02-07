@@ -1,0 +1,27 @@
+.row div {
+    margin: 0.25rem;
+}
+
+.col-1 {
+    background-color: bisque;
+}
+
+.col-2 {
+    background-color: darkkhaki;
+}
+
+.col-sm {
+    background-color: darkolivegreen;
+}
+
+.col-md {
+    background-color: olive;
+}
+
+.col-lg {
+    background-color: aquamarine;
+}
+
+.col-xl {
+    background-color: darkcyan;
+}
