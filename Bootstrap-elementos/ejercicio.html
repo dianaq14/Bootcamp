@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Elementos de Interés en Bootstrap"</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" 
+    crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="bg-dark p-5 rounded-3">
+            <div class="container-fluid">
+                <h1 class="display-5 fw-bold" style="color:white;">Custom Jumbotron</h1>
+                <p class="col-md-8" style="color: white;">Using a series of utilities, you can create this jumbotron, 
+                    just like the one in previous versions of Bootstrap. 
+                    Check out the examples below for how you can remix and restyle it to your liking
+                </p>
+                <button class="btn btn-secondary  data-bs-toggle="modal" data-bs-target="#btn-modal">
+                    Example Button
+                </button>
+                <div class="modal fade" id="btn-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">Ventana Modal</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          Esto es una ventana modal
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Guardar cambios</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section class="form-container ms-5 w-50">
+                  <h2 class="mb-3 fw-bold fs-14">Formulario</h2>
+                  <form action="">
+                    <div class="form-floating mb-3">
+                      <input type="text" class="form-control" id="name" placeholder="Introduce tu nombre"></input>
+                      <label for="name">Introduce tu nombre</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                      <input type="number" class="form-control" id="phone" placeholder="Telefono"></input>
+                      <label for="phone">Introduce tu numero de telefono</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                      <textarea class="form-control" id="comments" placeholder="Dejanos un comentario" style="height: 200px; resize: none;"></textarea>
+                      <label for="comments">Dejanos un comentario</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+                </section>
+                <section class="card m-5" style="width: 600px" >
+                  <img
+                    src=""
+                    class="card-image-top"
+                    alt="imagen"
+                  />
+                  <div class="card-body">
+                    <h2 class="card-title">Diana Cuta</h2>
+                    <p class="card-text">
+                      Me considero una persona disciplinada, curiosa por aprender y emprendedora, actualmente
+                      estoy trabajando como freelancer y también estoy estudiando de manera autodidacta
+                      HTML, CSS, con conocimientos básicos en Java y Kotlin en busca de nuevas oportunidades laborales en este apasionante mundo del desarrollo web,
+                      soy una persona con facilidad de comunicación, responsable, trabajo en equipo y 
+                    </p>
+                  </div>
+                  <div class="card-footer">Email: dianacuta14@gmail.com</div>
+                </section>
+              </div>
+
+            </div>
+        </div>
+        
+            
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" 
+crossorigin="anonymous">
+</script>
+</body>
+</html>
